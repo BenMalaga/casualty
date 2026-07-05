@@ -232,7 +232,7 @@ false positive.
 
 ## Recording the demo
 
-The GIF at the top is the highest-leverage thing in this README. Here is the
+The GIF at the top is the most useful thing in this README. Here is the
 exact cast that produces it: a two-file clean merge that drops a fraud check,
 then casualty catching it. Run it from an empty scratch directory. It builds a
 throwaway repo, runs the tool, and leaves nothing behind but a terminal you can

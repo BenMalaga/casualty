@@ -1,0 +1,39 @@
+{
+  "name": "casualty",
+  "version": "0.1.0",
+  "description": "Forensic audit for code lost during merge conflict resolution. Scans merge commits, re-merges their parents with git's own remerge primitive, and reports hunks that went in on a branch and silently never came out.",
+  "keywords": [
+    "git",
+    "merge",
+    "conflict",
+    "forensics",
+    "cli",
+    "audit",
+    "code-review",
+    "merge-tree",
+    "lost-code",
+    "merge-queue"
+  ],
+  "license": "MIT",
+  "author": "Ben Malaga",
+  "type": "module",
+  "bin": {
+    "casualty": "bin/casualty.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenMalaga/casualty.git"
+  },
+  "bugs": "https://github.com/BenMalaga/casualty/issues",
+  "homepage": "https://github.com/BenMalaga/casualty#readme",
+  "scripts": {
+    "test": "node --test"
+  }
+}
